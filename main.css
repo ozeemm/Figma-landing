@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    src: url("/fonts/Proxima_Nova/proximanova_regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Futura Round Demi";
+    font-weight: 400;
+    src: url("/fonts/afuturarounddemi.ttf") format("truetype");
+}
+
+.item{
+    margin-right: 40px;
+
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.last{
+    margin-right: 56px;
+
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #71A894;
+}
+
+.logo_img{
+    margin-left: 56px;
+    vertical-align: top;
+}
+
+.logo_text{
+    margin-left: 8px;
+    font-family: 'Futura Round Demi';
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: -0.04em;
+
+    color: #303031;
+}
