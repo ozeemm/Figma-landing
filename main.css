@@ -1,19 +1,19 @@
 @font-face {
     font-family: "Proxima Nova";
     font-weight: 400;
-    src: url("/fonts/Proxima_Nova/proximanova_regular.ttf") format("truetype");
+    src: url("fonts/Proxima_Nova/proximanova_regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Futura Round Demi";
     font-weight: 400;
-    src: url("/fonts/afuturarounddemi.ttf") format("truetype");
+    src: url("fonts/afuturarounddemi.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Bely Display";
     font-weight: 400;
-    src: url("/fonts/Bely-Display-W00-Regular.ttf") format("truetype");
+    src: url("fonts/Bely-Display-W00-Regular.ttf") format("truetype");
 }
 
 body{
@@ -61,7 +61,7 @@ body{
 
 .section-heading{
     margin-top: 59px;
-    background-image: url("/imgs/heading-illustration.png"), url("/imgs/heading-background.png");
+    background-image: url("imgs/heading-illustration.png"), url("imgs/heading-background.png");
     background-repeat: no-repeat, no-repeat;
     background-position: right, calc(100% - 36px);
     height: 720px;
