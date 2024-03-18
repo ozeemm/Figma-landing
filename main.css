@@ -10,6 +10,19 @@
     src: url("/fonts/afuturarounddemi.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Bely Display";
+    font-weight: 400;
+    src: url("/fonts/Bely-Display-W00-Regular.ttf") format("truetype");
+}
+
+body{
+    /*background-color: #E5E5E5;*/
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    font-size: 18px;
+}
+
 .item{
     margin-right: 40px;
 
@@ -43,5 +56,70 @@
     line-height: 43px;
     letter-spacing: -0.04em;
 
+    color: #303031;
+}
+
+.section-heading{
+    margin-top: 59px;
+    background-image: url("/imgs/heading-illustration.png"), url("/imgs/heading-background.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, calc(100% - 36px);
+    height: 720px;
+}
+
+.heading-text-block{
+    margin-left: 56px;
+    padding-top: 132px;
+}
+
+.heading-title{
+    margin-bottom: 24px;
+
+    font-family: 'Bely Display';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    /* or 125% */
+    color: #303031;
+}
+
+.heading-text{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    letter-spacing: -0.02em;
+    color: #66645E;
+    margin-bottom: 40px;
+}
+
+.heading-button{
+    width: 219px;
+    height: 64px;
+    /* Там можно добавить ещё какую-то тень */
+    background: #71A894;
+    border-width: 0;
+    border-radius: 8px;
+
+    font-weight: bold;
+    color: white;
+}
+
+.section-cards{
+    margin-top: 198px;
+}
+
+.cards-title{
+    font-family: 'Bely Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+    text-align: center;
+
+    /* Black */
     color: #303031;
 }
