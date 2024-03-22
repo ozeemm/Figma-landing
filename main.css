@@ -457,5 +457,39 @@ body{
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
-    margin: 48px auto 44px auto;
+    margin: 48px auto 0px auto;
+}
+
+.dotted-divider{
+    margin-top: 44px;
+    height: 72px;
+    background: url('imgs/dotted_divider.png');
+}
+
+.section-ending{
+    margin-top: 73px;
+    margin-right: 56px;
+    background-image: url("imgs/pablo-sign-in.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 36px);
+    height: 361px;
+}
+
+.ending-text-block{
+    padding-top: 59px;
+    margin-left: 199px;
+}
+
+.ending-title{
+    font-family: 'Bely Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    color: #303031;
+    margin-bottom: 24px;
+}
+
+.ending-text{
+    margin-bottom: 40px;
 }
