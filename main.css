@@ -24,6 +24,24 @@
     src: url("fonts/Bely-Display-W00-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Novel Mono Pro";
+    font-weight: 500;
+    src: url("fonts/novel-mono-pro-extralight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Novel Mono Pro";
+    font-weight: 600;
+    src: url("fonts/novel-mono-pro-semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Novel Mono Pro";
+    font-weight: 700;
+    src: url("fonts/novel-mono-pro-bold.otf") format("opentype");
+}
+
 body{
     /*background-color: #E5E5E5;*/
     font-family: "Proxima Nova";
@@ -181,4 +199,100 @@ body{
 
 .card-item-description{
     text-align: center;
+}
+
+.info-header{
+    margin: 24px 0px;
+
+    font-family: 'Bely Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    color: #303031;
+}
+
+.section-info1{
+    margin-top: 160px;
+}
+
+.info1-block{
+    margin-top: 23px;
+    margin-left: 56px;
+}
+
+.members-shadow{
+    width: 484px;
+    height: 400px;
+    background: #71A894;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: 120px;
+}
+
+.members-block{
+    width: 484px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    padding: 32px 40px;
+    margin-left: auto;
+    margin-right: 120px;
+    margin: -16px
+}
+
+.members-header{
+    width: 131px;
+    height: 40px;
+
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+
+    color: #303031;
+}
+
+.members-item{
+    margin-bottom: 24px;
+}
+
+.members-header{
+    margin-bottom: 32px;
+}
+
+.members-img{
+    width: 72px;
+    height: 72px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.members-item-text{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.members-name{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #303031;   
+}
+
+.members-description{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #66645E;
 }
