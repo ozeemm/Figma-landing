@@ -442,3 +442,20 @@ body{
     margin-left: auto;
     padding-top: 8px;
 }
+
+.help-view-more-button{
+    display: block;
+    width: 136px;
+    height: 64px;
+    background: #303031;
+    border-radius: 8px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 48px auto 44px auto;
+}
