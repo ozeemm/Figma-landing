@@ -212,13 +212,19 @@ body{
     color: #303031;
 }
 
-.section-info1{
+.section-info{
     margin-top: 160px;
 }
 
-.info1-block{
-    margin-top: 23px;
+.info-block{
+    margin-top: 33px;
     margin-left: 56px;
+}
+
+.info-block-right{
+    margin-top: 33px;
+    margin-left: auto;
+    margin-right: 54px;
 }
 
 .members-shadow{
@@ -295,4 +301,76 @@ body{
     line-height: 26px;
     letter-spacing: -0.02em;
     color: #66645E;
+}
+
+.section-info ~ .dotted-bg{
+    background: url('imgs/person-dotted-background.png');
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    height: 476px;
+}
+
+.person-card{
+    width: 484px;
+    height: 412px;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    margin-left: 80px;
+    padding: 36px 40px 32px 40px;
+    background-color: #FFFFFF;
+}
+
+.person-card > .members-item > .members-item-text > .members-description {
+    margin-top: 8px; 
+    font-weight: 600;
+}
+
+.person-description{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.person-stats{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.stats-header{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #66645E;
+}
+
+.stats-value{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.stats-button{
+    width: 404px;
+    padding: 12px 24px;
+    background: #303031;
+    border-radius: 16px;
+
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
