@@ -337,7 +337,7 @@ body{
 
 .person-stats{
     margin-top: 24px;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
 }
 
 .stats-header{
@@ -348,6 +348,7 @@ body{
     line-height: 24px;
     letter-spacing: -0.02em;
     color: #66645E;
+    margin-bottom: 12px;
 }
 
 .stats-value{
@@ -373,4 +374,71 @@ body{
     line-height: 32px;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+}
+
+/* info-block, смотреть его margin-top относительно выпирающих белых точек на прошлом */
+
+.section-help{
+    margin-top: 160px;
+}
+
+.help-card-item{
+    width: 427px;
+    height: 216px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.help-card-header{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+    margin-bottom: 16px;
+}
+
+.help-card-description{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+    margin-bottom: 24px;
+}
+
+.help-footer{
+    display: flex;
+}
+
+.help-green-oval{
+    padding: 6px 8px 0px 8px;
+    background: #71A894;
+    border-radius: 40px;
+
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.help-date{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #303031;
+    margin-left: auto;
+    padding-top: 8px;
 }
