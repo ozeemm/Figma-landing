@@ -1,7 +1,15 @@
+/* Вынести стили h для каждой категории */
+
 @font-face {
     font-family: "Proxima Nova";
     font-weight: 400;
     src: url("fonts/Proxima_Nova/proximanova_regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    font-weight: 700;
+    src: url("fonts/Proxima_Nova/proximanova_bold.otf") format("opentype");
 }
 
 @font-face {
@@ -73,7 +81,8 @@ body{
 }
 
 .heading-title{
-    margin-bottom: 24px;
+    margin-top: 24px;
+    margin-bottom: 16px;
 
     font-family: 'Bely Display';
     font-weight: 400;
@@ -122,4 +131,54 @@ body{
 
     /* Black */
     color: #303031;
+}
+
+.cards-description{
+    margin-top: 24px;
+    margin-bottom: 48px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* Black */
+    color: #303031;
+}
+
+.card-item{
+    width: 427px;
+    height: 340px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 64px 24px;
+}
+
+.card-item-img{
+    width: 104px;
+    height: 88px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-item-header{
+    text-align: center;
+    margin-top: 24px;
+    /* Card Title */
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #303031;
+}
+
+.card-item-description{
+    text-align: center;
 }
