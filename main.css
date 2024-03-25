@@ -376,10 +376,220 @@ body{
     color: #FFFFFF;
 }
 
-/* info-block, смотреть его margin-top относительно выпирающих белых точек на прошлом */
+.info3-block{
+    margin-top: 82px;
+    margin-left: 56px;
+}
+
+.info3-cards-container{
+    margin-right: 40px;
+    margin-left: auto;
+}
+
+.info3-info-card-shadow{
+    width: 544px;
+    height: 164px;
+    background: #71A894;
+    border-radius: 16px;
+    position: relative;
+    left: 8px;
+    bottom: 156px;
+    z-index: -1;
+}
+
+.info3-info-card{
+    width: 560px;
+    height: 164px;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    margin-right: 37px;
+    background-color: #FFFFFF;
+    padding: 16px 24px 24px 24px;
+}
+
+.info3-info-card-header{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.info3-info-card-text{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.info3-info-card-green-oval{
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: auto;
+    vertical-align: top;
+
+    padding: 6px 8px 0px 8px;
+    background: #71A894;
+    border-radius: 40px;
+
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.info3-applicants-card{
+    display: inline-block;
+    width: 381px;
+    height: 288px;
+    background: #F3F0EA;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    margin-top: 24px;
+    position: relative;
+    right: 37px;
+    bottom: 156px;
+
+    padding: 32px 40px;
+}
+
+.info3-applicants-header{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #303031;
+    margin-bottom: 24px;
+}
+
+.info3-person-card{
+    display: inline-block;
+    width: 240px;
+    height: 288px;
+    border: 4px solid #71A894;
+    border-radius: 16px;
+    position: relative;
+    right: 24px;
+    bottom: 140px;
+    padding: 24px;
+}
+
+.info3-person-card-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info3-person-card-name{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #303031;
+
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.info3-person-card-profession{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #66645E;
+}
+
+.info3-person-card-ration-text{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.info3-person-card-ration{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #303031
+}
+
+.info3-person-card-button{
+    width: 192px;
+    height: 44px;
+    background: #303031;
+    border-radius: 16px;
+    padding: 12px 24px;
+
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.applicant-img{
+    height: 40px;
+    width: 40px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+.applicant-name{
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.applicant-raiting{
+    display: inline-block;
+    justify-self: end;
+    vertical-align: top;
+    padding-top: 10px;
+
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #303031;
+}
 
 .section-help{
-    margin-top: 160px;
+    margin-top: 160px - 164px;
 }
 
 .help-card-item{
@@ -463,15 +673,15 @@ body{
 .dotted-divider{
     margin-top: 44px;
     height: 72px;
+    width: 100%;
     background: url('imgs/dotted_divider.png');
 }
 
 .section-ending{
     margin-top: 73px;
-    margin-right: 56px;
     background-image: url("imgs/pablo-sign-in.png");
-    background-repeat: no-repeat;
-    background-position: calc(100% - 36px);
+    background-repeat: no-repeat;    
+    background-position: right;
     height: 361px;
 }
 
@@ -492,4 +702,15 @@ body{
 
 .ending-text{
     margin-bottom: 40px;
+}
+
+.yellow-star{
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+    background-image: url('imgs/star.svg');
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 8px;
 }
